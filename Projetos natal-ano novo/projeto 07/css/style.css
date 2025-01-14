@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.login-content {
+    flex: 1;
+    max-width: 640px;
+    padding: 40px 80px;
+    background: #FFFFFF;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo span {
+    font-size: 24px;
+    color: #7C3AED;
+    font-weight: 700;
+}
+
+.form-header {
+    margin-top: 114px;
+}
+
+.form-header h1 {
+    font-size: 36px;
+    color: #1E293B;
+    font-weight: 700;
+}
+
+.form-header p {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #475569;
+    line-height: 24px;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.input-group {
+    margin-bottom: 16px;
+}
+
+.input-group label {
+    display: block;
+    color: #1E293B;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.password-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.forgot-password {
+    color: #7C3AED;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.password-input {
+    position: relative;
+}
+
+input {
+    width: 100%;
+    padding: 16px;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 4px;
+    color: #1E293B;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: #94A3B8;
+}
+
+input:focus {
+    outline: none;
+    border-color: #7C3AED;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.login-button {
+    width: 100%;
+    padding: 16px;
+    background: #7C3AED;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-button:hover {
+    background: #9F67FF;
+}
+
+.register {
+    text-align: center;
+    margin-top: 32px;
+}
+
+.register span {
+    color: #475569;
+    font-size: 16px;
+}
+
+.register a {
+    color: #7C3AED;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.background {
+    flex: 1;
+    position: relative;
+    background: linear-gradient(45deg, #7C3AED 0%, #4C1D95 100%);
+    overflow: hidden;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: -50%;
+    left: -50%;
+    background: radial-gradient(ellipse at center, rgba(124, 58, 237, 0.2) 0%, rgba(76, 29, 149, 0.6) 100%),
+                radial-gradient(ellipse at center, rgba(124, 58, 237, 0.3) 0%, transparent 70%);
+    transform: rotate(-15deg);
+}
+
+.background::after {
+    content: "";
+    position: absolute;
+    width: 150%;
+    height: 150%;
+    top: -25%;
+    right: -25%;
+    background: linear-gradient(180deg, rgba(124, 58, 237, 0.7) 0%, transparent 100%);
+    border-radius: 50%;
+    transform: rotate(15deg);
+}
+
+@media (max-width: 1000px) {
+    .background {
+        display: none;
+    }
+    
+    .login-content {
+        max-width: 100%;
+        padding: 40px;
+    }
+}

@@ -1,0 +1,540 @@
+.boardingpass-modelo1-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-boardingpass-modelo1 {
+  width: 100%;
+  height: 812px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(150deg, rgba(130, 87, 229, 1) 0%, rgba(39, 26, 69, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 32px;
+}
+ 
+.boardingpass-modelo1-boardingpass {
+  gap: 20px;
+  top: 78px;
+  left: 24px;
+  width: 327px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-text10 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-ticket {
+  display: flex;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.25) ;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-flight-info {
+  gap: 24px;
+  width: 327px;
+  display: flex;
+  padding: 24px 32px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 24px;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.boardingpass-modelo1-container2 {
+  gap: 24px;
+  width: 263px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.boardingpass-modelo1-flight-number {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-text11 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text12 {
+  color: rgba(0, 0, 0, 0.8799999952316284);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-flight-date {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-text13 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text14 {
+  color: rgba(0, 0, 0, 0.8799999952316284);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: right;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-container3 {
+  gap: 57px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+ 
+.boardingpass-modelo1-departure {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-text15 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text16 {
+  color: rgba(0, 0, 0, 0.8799999952316284);
+  height: auto;
+  font-size: 40px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text17 {
+  color: rgba(0, 0, 0, 0.800000011920929);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-arrival {
+  display: flex;
+  z-index: 1;
+  align-items: flex-end;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-text18 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text19 {
+  color: rgba(0, 0, 0, 0.8799999952316284);
+  height: auto;
+  font-size: 40px;
+  font-style: Medium;
+  text-align: right;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+ 
+.boardingpass-modelo1-text20 {
+  color: rgba(0, 0, 0, 0.800000011920929);
+  height: auto;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text21 {
+  color: rgba(0, 0, 0, 0.800000011920929);
+  height: auto;
+  font-size: 10px;
+  font-style: Medium;
+  text-align: right;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-ionairplane {
+  top: 29.5px;
+  left: 119.5px;
+  width: 24px;
+  height: 24px;
+  z-index: 2;
+  position: absolute;
+}
+ 
+.boardingpass-modelo1-divider1 {
+  width: 279px;
+  height: 1px;
+}
+ 
+.boardingpass-modelo1-passanger-info {
+  gap: 81px;
+  width: 327px;
+  display: flex;
+  padding: 24px 32px;
+  overflow: hidden;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 24px;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.boardingpass-modelo1-passanger-name {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-text22 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text23 {
+  color: rgba(0, 0, 0, 0.8799999952316284);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-seat {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-text24 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text25 {
+  color: rgba(0, 0, 0, 0.8799999952316284);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: right;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-divider2 {
+  width: 279px;
+  height: 1px;
+}
+ 
+.boardingpass-modelo1-boarding-info {
+  gap: 24px;
+  width: 327px;
+  display: flex;
+  padding: 24px 32px;
+  overflow: hidden;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 24px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.boardingpass-modelo1-container4 {
+  gap: 8px;
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.boardingpass-modelo1-boardinginfo {
+  gap: 16px;
+  width: 95px;
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-boarding-time {
+  gap: 2px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-text26 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-container5 {
+  gap: 8px;
+  display: flex;
+  padding: 4px 8px;
+  align-items: flex-start;
+  border-radius: 8px;
+  background-color: rgba(99, 59, 188, 1);
+}
+ 
+.boardingpass-modelo1-text27 {
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-terminal {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+ 
+.boardingpass-modelo1-text28 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-gate {
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.boardingpass-modelo1-text29 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text30 {
+  color: rgba(0, 0, 0, 0.8799999952316284);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1qr-code1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.boardingpass-modelo1qr-code2 {
+  width: 160px;
+  height: 160px;
+}
+ 
+.boardingpass-modelo1-text31 {
+  color: rgba(0, 0, 0, 0.6399999856948853);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text32 {
+  color: rgba(0, 0, 0, 0.800000011920929);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 20px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.boardingpass-modelo1-text33 {
+  font-weight: 500;
+}
+ 
+.boardingpass-modelo1-text35 {
+  color: rgba(255, 255, 255, 1);
+  width: 269px;
+  height: auto;
+  opacity: 0.64;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  line-height: 24px;
+  font-stretch: normal;
+  text-decoration: none;
+}

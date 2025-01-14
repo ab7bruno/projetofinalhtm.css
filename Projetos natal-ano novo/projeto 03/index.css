@@ -1,0 +1,126 @@
+:root {
+  --purple: #7B68EE;
+  --dark-gray: #2A2D37;
+  --button-gray: #333842;
+  --text-color: #FFFFFF;
+  --button-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --button-hover-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  --button-active-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --purple: #7b68ee; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--purple);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.calculator {
+  width: 300px;
+  background-color: var(--dark-gray);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.display {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.previous-operation {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 5px;
+}
+
+.result {
+  font-size: 40px;
+  color: var(--text-color);
+  font-weight: 300;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  font-size: 22px;
+  color: var(--text-color);
+  box-shadow: var(--button-shadow);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number, .function {
+  background-color: var(--button-gray);
+}
+
+.operator {
+  background-color: var(--purple);
+  font-weight: 500;
+}
+
+button:hover {
+  filter: brightness(1.1);
+  box-shadow: var(--button-hover-shadow);
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(1px);
+  box-shadow: var(--button-active-shadow);
+}
+.operator {
+  background-color: var(--purple);
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(123, 104, 238, 0.3);
+}
+
+.operator:hover {
+  box-shadow: 0 6px 16px rgba(123, 104, 238, 0.4);
+}
+
+.operator:active {
+  box-shadow: 0 2px 8px rgba(123, 104, 238, 0.2);
+}
+
+.function {
+  font-size: 18px;
+}
+
+/* Ajustes específicos para botões especiais */
+button:nth-child(1),
+button:nth-child(2),
+button:nth-child(3) {
+  color: var(--purple);
+}
+
+button:last-child {
+  font-size: 28px;
+}
